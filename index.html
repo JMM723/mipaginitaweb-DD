@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<!-- La etiqueta html indica que aquí empieza nuestro código de página web -->
+<html>
+<head>
+    <!-- En el head van las configuraciones, como el título que sale en la pestaña del navegador -->
+    <title>Mi Primera Páginita web :333 - PvZ</title>
+    
+    <!-- Aquí metemos el CSS (estilos) básico -->
+    <style>
+        /* Le damos estilo a toda la página (body) */
+        body {
+            background-color: #2e8b57; /* Un color verde pasto */
+            color: white; /* Letras blancas para que resalten */
+            font-family: Arial, sans-serif; /* Un tipo de letra normal y fácil de leer */
+            text-align: center; /* Centramos todo el contenido */
+            padding: 20px;
+        }
+
+        /* Creamos una "caja" para que el texto no quede volando sobre el verde */
+        .caja-oscura {
+            background-color: black;
+            padding: 20px;
+            margin: 10px;
+            border-radius: 10px; /* Bordes redondeados */
+        }
+
+        /* Tamaño fijo para las imágenes para que no salgan gigantes */
+        img {
+            width: 200px;
+            margin: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- h1 es el título principal, h2 son subtítulos -->
+    <h1>Plants vs. Zombies</h1>
+    <p>¡Bienvenido a mi primera página web sobre mi juego favorito! :DDDD</p>
+
+    <!-- Caja de la Historia -->
+    <div class="caja-oscura">
+        <h2>La Historia</h2>
+        <p>En este juego, eres el dueño de una casa y de repente... ¡un apocalipsis zombi! Tu vecino, el loco Crazy Dave, te ayuda dándote semillas de plantas mutantes. Tu objetivo es usar estas plantas para defender tu jardín y evitar que los zombis entren a tu casa y se coman tu cerebro.</p>
+    </div>
+
+    <!-- Caja de los Personajes -->
+    <div class="caja-oscura">
+        <h2>Personajes Principales</h2>
+        
+        <!-- Imagen del Lanzaguisantes que pediste -->
+        <h3>El Lanzaguisantes</h3>
+        <img src="https://static.wikia.nocookie.net/plantsvszombies/images/4/4d/Lanzaguisantes_HD.jpg/revision/latest/scale-to-width-down/250?cb=20160825213952&path-prefix=es" alt="Lanzaguisantes">
+        
+        <!-- Imagen del Zombi normal que pediste -->
+        <h3>El Zombi Básico</h3>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXuMqN0OQrjdlbTcUHUN4KPuFpUa-BurR4Rl2VWkHfpQ&s=10" alt="Zombi Normal">
+    </div>
+
+    <!-- Caja de Mecánicas -->
+    <div class="caja-oscura">
+        <h2>¿Cómo se juega? (Mecánicas)</h2>
+        <!-- ul crea una lista de puntos, y li es cada elemento de la lista -->
+        <ul style="text-align: left;">
+            <li><strong>Recolección de Soles:</strong> Necesitas energía solar (soles) que caen del cielo o que producen los Girasoles.</li>
+            <li><strong>Plantar defensas:</strong> Con esos soles, compras plantas y las pones en la cuadrícula de tu jardín.</li>
+            <li><strong>Líneas de ataque:</strong> Los zombis caminan en línea recta. Tienes que poner plantas en cada fila para detenerlos.</li>
+            <li><strong>Sobrevivir:</strong> Resiste las oleadas de zombis hasta que se acabe el nivel.</li>
+        </ul>
+    </div>
+
+</body>
+</html>
